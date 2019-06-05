@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/estadisticas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="Salir"
+    tools:context=".MainActivityMapa" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/layPreg8"
+            android:layout_width="match_parent"
+            android:layout_height="1075dp"
+            android:orientation="vertical" >
+
+      
+            
+                          
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+
+                  <TextView
+                      android:id="@+id/textPregunta8"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="En caso de que el Ciudadano esté de acuerdo en proporcionar sus datos personales con el fin de mantener contacto con las autoridades del Gobierno de la Ciudad de México, escribirlos a continuación:
+"
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textColor="#669900"
+                      android:textSize="18sp"
+                      android:textStyle="bold" />
+
+                            <EditText
+                         android:id="@+id/editNombreCiudadano"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:hint="Nombre del Ciudadano"
+                         android:inputType="textMultiLine"
+                         android:layout_marginTop="15dp"
+                         android:textSize="20sp" />
+                            
+                            <EditText
+                         android:id="@+id/editTelefonoCiudadano"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:hint="Teléfono Particular"
+                         android:inputType="number"
+                         android:maxLength="10"
+                         android:layout_marginTop="15dp"
+                         android:textSize="20sp" />
+                            
+                           
+            </LinearLayout>
+            
+           
+      
+
+            <!-- //////////////////////////////////////  BOTONES  /////////////// -->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

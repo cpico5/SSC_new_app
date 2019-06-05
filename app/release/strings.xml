@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Seguimiento Territorial</string>
+    <string name="app_version">ver. 1.0.3</string>
+
+     <string name="url_aplicacion">https://territorial.cdmx.gob.mx</string>
+     <string name="url_gps">https://territorial.cdmx.gob.mx</string>
+    <!--<string name="url_aplicacion">http://10.2.69.141</string>-->
+    <string name="project_object">SSCVisita</string>
+
+    <!-- Strings related to login -->
+    <string name="title_dialog">Visita domiciliaria</string>
+    <string name="prompt_email">Placa</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_settings"></string>
+    <string name="visita_menu_button">Visita</string>
+    <string name="incidente_menu_button">Incidente Urbano</string>
+    <string name="title_activity_chip">Chip</string>
+    <string name="usuario_login">Bienvenido Edgar</string>
+    <string name="button_salir">Salir</string>
+</resources>

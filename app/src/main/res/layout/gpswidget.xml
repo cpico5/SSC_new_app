@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+ 
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/appwidget_dark_bg9"
+android:padding="10dip">
+ 
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:src="@drawable/launcher"/>
+ 
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/txtInfo"
+android:text="Esperando por Coordenadas..."
+android:textColor="#FFFFFFFF"
+android:gravity="center_horizontal|center_vertical"/>
+ 
+</LinearLayout>
+</LinearLayout>

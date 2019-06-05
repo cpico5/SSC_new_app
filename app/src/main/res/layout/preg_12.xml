@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/estadisticas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="Salir"
+    tools:context=".MainActivityMapa" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/layPreg12"
+            android:layout_width="match_parent"
+            android:layout_height="1075dp"
+            android:orientation="vertical" >
+
+      
+            
+                          
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+
+
+                            <TextView
+                                android:id="@+id/textPregunta12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Describa el motivo"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="#669900"
+                                android:textStyle="bold" />
+
+                            <EditText
+                         android:id="@+id/editMotivo12"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:hint="Motivo"
+                         android:inputType="textMultiLine"
+                         android:layout_marginTop="15dp"
+                         android:textSize="20sp" />
+                            
+                           
+            </LinearLayout>
+            
+           
+      
+
+            <!-- //////////////////////////////////////  BOTONES  /////////////// -->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
